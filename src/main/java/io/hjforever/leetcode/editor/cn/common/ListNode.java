@@ -1,8 +1,8 @@
 package io.hjforever.leetcode.editor.cn.common;
 
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
     ListNode() {
     }
