@@ -88,18 +88,7 @@ public class Q112PathSum {
                     }
                 }
                 //非叶子节点，继续递归左节点和右节点
-                if (root.left != null) {
-                    boolean hasLeftPath = pathSumList(root.left, sum, targetSum);
-                    if (hasLeftPath) {
-                        return true;
-                    }
-                }
-                if (root.right != null) {
-                    boolean hasRightPath = pathSumList(root.right, sum, targetSum);
-                    if (hasRightPath) {
-                        return true;
-                    }
-                }
+                return pathSumList(root.left, sum, targetSum) || pathSumList(root.right, sum, targetSum);
             }
             return false;
         }
