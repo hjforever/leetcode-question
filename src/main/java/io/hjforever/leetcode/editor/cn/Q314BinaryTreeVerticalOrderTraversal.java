@@ -84,17 +84,7 @@ public class Q314BinaryTreeVerticalOrderTraversal {
             verticalOrder(root, 0, 0);
             return verticalMap.values()
                     .stream()
-                    .map(new Function<Set<int[]>, List<Integer>>() {
-                        @Override
-                        public List<Integer> apply(Set<int[]> set) {
-                            return set.stream().map(new Function<int[], Integer>() {
-                                @Override
-                                public Integer apply(int[] val) {
-                                    return val[0];
-                                }
-                            }).collect(Collectors.toList());
-                        }
-                    })
+                    .map(set -> set.stream().map(val -> val[0]).collect(Collectors.toList()))
                     .collect(Collectors.toList());
         }
 
@@ -102,20 +92,12 @@ public class Q314BinaryTreeVerticalOrderTraversal {
             if (root == null) {
                 return;
             }
-            verticalMap.computeIfAbsent(hor, new Function<Integer, Set<int[]>>() {
-                @Override
-                public Set<int[]> apply(Integer key) {
-                    return new TreeSet<>(new Comparator<int[]>() {
-                        @Override
-                        public int compare(int[] val1, int[] val2) {
-                            if (val1[1] == val2[1]) {
-                                return val1[2] - val2[2];
-                            }
-                            return val1[1] - val2[1];
-                        }
-                    });
+            verticalMap.computeIfAbsent(hor, key -> new TreeSet<>((val1, val2) -> {
+                if (val1[1] == val2[1]) {
+                    return val1[2] - val2[2];
                 }
-            }).add(new int[]{root.val, ver, ++visitSequence});
+                return val1[1] - val2[1];
+            })).add(new int[]{root.val, ver, ++visitSequence});
             verticalOrder(root.left, hor - 1, ver + 1);
             verticalOrder(root.right, hor + 1, ver + 1);
         }
