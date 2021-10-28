@@ -74,6 +74,7 @@ public class Q314BinaryTreeVerticalOrderTraversal {
      */
     class Solution {
 
+        //思路是以顶点为0点坐标，左节点-1右节点+1 ，此处需要注意同坐标时需要根据 层级顺序排列
         private Map<Integer, Set<int[]>> verticalMap;
 
         private int visitSequence = 0;
