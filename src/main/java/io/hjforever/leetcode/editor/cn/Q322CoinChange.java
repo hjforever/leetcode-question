@@ -119,19 +119,19 @@ public class Q322CoinChange {
         }
 
 
-        //dp 解法
+        //dp 解法 dp[i] = min(dp[i],dp[i-c]+1),当无法组合的情况则为初始值，即无解
         private int dp(int[] conins, int amount) {
-            int max = amount + 1;
             int[] dp = new int[amount + 1];
-            Arrays.fill(dp, max);
+            Arrays.fill(dp, amount + 1);
             dp[0] = 0;
-            for (int i = 0; i < dp.length; i++) {
-                for (int coin : conins) {
-                    if (i - coin < 0) {
-                        //无解
-                        continue;
+            for (int i = 0; i <= amount; i++) {
+                //最大 amount
+                for (int j = 0; j < conins.length; j++) {
+                    int coin = conins[j];
+                    if (coin <= i) {
+                        //dp[i] = min(dp[i],dp[i-c]+1)
+                        dp[i] = Math.min(dp[i], dp[i - coin] + 1);
                     }
-                    dp[i] = Math.min(dp[i], (1 + dp[i - coin]));
                 }
             }
             return dp[amount] > amount ? -1 : dp[amount];
