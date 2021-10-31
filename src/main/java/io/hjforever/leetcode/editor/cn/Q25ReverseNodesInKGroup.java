@@ -100,7 +100,6 @@ public class Q25ReverseNodesInKGroup {
                 pre = tail;
                 head = tail.next;
             }
-
             return hair.next;
         }
 
