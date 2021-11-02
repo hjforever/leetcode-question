@@ -525,6 +525,24 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q366XunZhaoErChaShuDeYeZiJieDian.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q366XunZhaoErChaShuDeYeZiJieDian.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q366XunZhaoErChaShuDeYeZiJieDian.java" />
+              <option name="questionId" value="366" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q404ZuoYeZiZhiHe.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q404ZuoYeZiZhiHe.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q404ZuoYeZiZhiHe.java" />
+              <option name="questionId" value="404" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q416PartitionEqualSubsetSum.java">
           <value>
             <LeetcodeEditor>
@@ -621,6 +639,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q83RemoveDuplicatesFromSortedList.md" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q83RemoveDuplicatesFromSortedList.java" />
               <option name="questionId" value="83" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q862HeZhiShaoWeiKDeZuiDuanZiShuZu.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q862HeZhiShaoWeiKDeZuiDuanZiShuZu.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q862HeZhiShaoWeiKDeZuiDuanZiShuZu.java" />
+              <option name="questionId" value="892" />
             </LeetcodeEditor>
           </value>
         </entry>
