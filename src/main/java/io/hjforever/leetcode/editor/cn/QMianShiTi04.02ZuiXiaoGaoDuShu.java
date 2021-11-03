@@ -7,7 +7,7 @@ package io.hjforever.leetcode.editor.cn;
 
 import io.hjforever.leetcode.editor.cn.common.TreeNode;
 
-public class QMianShiTi0402ZuiXiaoGaoDuShu {
+class QMianShiTi0402ZuiXiaoGaoDuShu {
     public static void main(String[] args) {
         Solution solution = new QMianShiTi0402ZuiXiaoGaoDuShu().new Solution();
     }
