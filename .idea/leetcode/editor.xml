@@ -534,6 +534,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q367YouXiaoDeWanQuanPingFangShu.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q367YouXiaoDeWanQuanPingFangShu.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q367YouXiaoDeWanQuanPingFangShu.java" />
+              <option name="questionId" value="367" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q404ZuoYeZiZhiHe.java">
           <value>
             <LeetcodeEditor>
