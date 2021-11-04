@@ -40,7 +40,6 @@ package io.hjforever.leetcode.editor.cn;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Q77ZuHe {
     public static void main(String[] args) {
@@ -49,45 +48,35 @@ public class Q77ZuHe {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-        List<List<Integer>> res = new ArrayList<>();
+        List<List<Integer>> res = new LinkedList<>();
+        LinkedList<Integer> path = new LinkedList<>();
 
         public List<List<Integer>> combine(int n, int k) {
-            if (k > n) {
-                return res;
+            int[] nums = new int[n];
+            for (int i = 0; i < n; i++) {
+                nums[i] = i + 1;
             }
-            List<Integer> list = new ArrayList<>();
-            for (int i = 1; i <= n; i++) {
-                list.add(i);
-            }
-            if (n == k) {
-                res.add(list);
-                return res;
-            } else {
-                //回溯
-                LinkedList<Integer> reList = new LinkedList<>();
-                //start =0 , end n-k+1
-                for (int i = 0; i < n - k + 1; i++) {
-                    backTrack(list, k, i, reList);
-                }
-                return res.stream().distinct().collect(Collectors.toList());
-            }
+            dfs(nums, 0, k);
+            return res;
         }
 
-        void backTrack(List<Integer> numsList, int k, int start, LinkedList<Integer> list) {
-            if (list.size() == k) {
-                //Collections.sort(list);
-                res.add(new LinkedList<>(list));
+        void dfs(int[] nums, int cur, int k) {
+            //当剩余的个数相加list的个数不足时则返回
+            int nm = path.size() + nums.length - cur;
+            //System.out.println("pathsize:" + path.size() + "cur:" + cur + ",nm:" + nm);
+            if (nm < k) {
                 return;
             }
-            for (int i = start; i < numsList.size(); i++) {
-                if (list.contains(numsList.get(i))) {
-                    continue;
-                }
-                list.addLast(numsList.get(i));
-                backTrack(numsList, k, i, list);
-                list.removeLast();
+            if (path.size() == k) {
+                res.add(new ArrayList<>(path));
+                return;
             }
+            path.addLast(nums[cur]);
+            dfs(nums, cur + 1, k);
+            path.removeLast();
+            dfs(nums, cur + 1, k);
         }
+
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
