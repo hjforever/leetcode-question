@@ -453,6 +453,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q26ShanChuYouXuShuZuZhongDeZhongFuXiang.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q26ShanChuYouXuShuZuZhongDeZhongFuXiang.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q26ShanChuYouXuShuZuZhongDeZhongFuXiang.java" />
+              <option name="questionId" value="26" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q270ClosestBinarySearchTreeValue.java">
           <value>
             <LeetcodeEditor>
