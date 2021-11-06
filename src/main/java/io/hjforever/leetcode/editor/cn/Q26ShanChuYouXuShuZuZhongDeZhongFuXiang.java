@@ -74,11 +74,8 @@ public class Q26ShanChuYouXuShuZuZhongDeZhongFuXiang {
                     //需要交换值
                     nums[left + 1] = nums[right];
                     left++;
-                    right = right + 1;
-                } else {
-                    //右指针继续查找
-                    right++;
                 }
+                right++;
             }
             return left + 1;
         }
