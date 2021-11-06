@@ -44,6 +44,7 @@ public class QJianZhiOffer13JiQiRenDeYunDongFanWei {
 
         }
 
+        //正常的单个回溯会导致重复访问，会超时，此处如果已访问则直接返回0，因为当处于同一块方格时后续的所有走法是固定的，可以剪枝
         int backTrack(int i, int j, int k, int m, int n) {
             if (i >= 0 && i < m && j >= 0 && j < n && !vist[i][j] && count(i, j) <= k) {
                 vist[i][j] = true;
