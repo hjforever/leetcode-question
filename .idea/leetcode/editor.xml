@@ -210,6 +210,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q138FuZhiDaiSuiJiZhiZhenDeLianBiao.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q138FuZhiDaiSuiJiZhiZhenDeLianBiao.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q138FuZhiDaiSuiJiZhiZhenDeLianBiao.java" />
+              <option name="questionId" value="138" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q141HuanXingLianBiao.java">
           <value>
             <LeetcodeEditor>
@@ -255,6 +264,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q147DuiLianBiaoJinXingChaRuPaiXu.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q147DuiLianBiaoJinXingChaRuPaiXu.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q147DuiLianBiaoJinXingChaRuPaiXu.java" />
+              <option name="questionId" value="147" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q156BinaryTreeUpsideDown.java">
           <value>
             <LeetcodeEditor>
@@ -270,6 +288,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q15ThreeSum.md" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q15ThreeSum.java" />
               <option name="questionId" value="15" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q160XiangJiaoLianBiao.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q160XiangJiaoLianBiao.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q160XiangJiaoLianBiao.java" />
+              <option name="questionId" value="160" />
             </LeetcodeEditor>
           </value>
         </entry>
