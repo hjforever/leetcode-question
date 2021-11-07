@@ -1,0 +1,24 @@
+class Solution {
+    public String minNumber(int[] nums) {
+            List<String> list = new ArrayList<>();
+            for (int num : nums) {
+                list.add(String.valueOf(num));
+            }
+            Collections.sort(list, (o1, o2) -> {
+                String compareOne = o1 + o2;
+                String compareTwo = o2 + o1;
+                return Long.valueOf(compareOne) > Long.valueOf(compareTwo) ? 1 : -1;
+            });
+            StringBuffer result = new StringBuffer();
+            //不需要删除第一个 0
+            // if (list.get(0).equals("0")) {
+            //     list.remove(0);
+            // }
+            for (String s : list) {
+                result.append(s);
+            }
+            return result.toString();
+        }
+}
+//runtime:12 ms
+//memory:38.2 MB
