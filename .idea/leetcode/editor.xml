@@ -867,6 +867,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q563ErChaShuDePoDu.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q563ErChaShuDePoDu.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q563ErChaShuDePoDu.java" />
+              <option name="questionId" value="563" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q575DistributeCandies.java">
           <value>
             <LeetcodeEditor>
@@ -1476,6 +1485,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/QJianZhiOffer55-IIPingHengErChaShu.md" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/QJianZhiOffer55-IIPingHengErChaShu.java" />
               <option name="questionId" value="100342" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/QJianZhiOffer56-IShuZuZhongShuZiChuXianDeCiShu.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/QJianZhiOffer56-IShuZuZhongShuZiChuXianDeCiShu.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/QJianZhiOffer56-IShuZuZhongShuZiChuXianDeCiShu.java" />
+              <option name="questionId" value="100320" />
             </LeetcodeEditor>
           </value>
         </entry>
