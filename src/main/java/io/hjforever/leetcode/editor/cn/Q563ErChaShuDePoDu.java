@@ -92,11 +92,11 @@ public class Q563ErChaShuDePoDu {
             }
             //计算非子节点之差
             //计算左子树
-            int leftTilt = dfs(root.left);
-            int rightTilt = dfs(root.right);
-            int tilt = Math.abs(leftTilt - rightTilt);
+            int left = dfs(root.left);
+            int right = dfs(root.right);
+            int tilt = Math.abs(left - right);
             tiltSum += tilt;
-            return root.val + leftTilt + rightTilt;
+            return root.val + left + right;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
