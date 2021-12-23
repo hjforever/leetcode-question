@@ -57,9 +57,9 @@ public class Q1154YiNianZhongDeDiJiTian {
                 return 0;
             }
             String[] dateArray = date.split("-");
-            int year = Integer.valueOf(dateArray[0]);
-            int month = Integer.valueOf(dateArray[1]);
-            int day = Integer.valueOf(dateArray[2]);
+            int year = Integer.parseInt(dateArray[0]);
+            int month = Integer.parseInt(dateArray[1]);
+            int day = Integer.parseInt(dateArray[2]);
 
             int result = 0;
             int monthDays[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
