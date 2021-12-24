@@ -435,6 +435,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1705ChiPingGuoDeZuiDaShuMu.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1705ChiPingGuoDeZuiDaShuMu.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1705ChiPingGuoDeZuiDaShuMu.java" />
+              <option name="questionId" value="1824" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q173BinarySearchTreeIterator.java">
           <value>
             <LeetcodeEditor>
