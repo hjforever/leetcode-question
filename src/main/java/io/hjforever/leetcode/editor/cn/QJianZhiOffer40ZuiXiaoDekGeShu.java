@@ -35,6 +35,7 @@ public class QJianZhiOffer40ZuiXiaoDekGeShu {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+        //最大堆
         public int[] getLeastNumbers(int[] arr, int k) {
             if (k == 0) {
                 return new int[0];
@@ -42,12 +43,7 @@ public class QJianZhiOffer40ZuiXiaoDekGeShu {
             if (arr == null || arr.length == 0 || arr.length <= k) {
                 return arr;
             }
-            PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(new Comparator<Integer>() {
-                @Override
-                public int compare(Integer o1, Integer o2) {
-                    return o2 - o1;
-                }
-            });
+            PriorityQueue<Integer> priorityQueue = new PriorityQueue<>((o1, o2) -> o2 - o1);
             for (int i = 0; i < k; i++) {
                 priorityQueue.add(arr[i]);
             }
