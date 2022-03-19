@@ -67,33 +67,24 @@ public class Q606GenJuErChaShuChuangJianZiFuChuan {
         //前序遍历，dfs
 
         public String tree2str(TreeNode root) {
-            StringBuilder res = preOrder(root);
-            res.deleteCharAt(0);
-            res.deleteCharAt(res.length()-1);
+            StringBuilder res = new StringBuilder();
+            preOrder(root, res);
             return res.toString();
         }
 
-        StringBuilder preOrder(TreeNode root) {
-            StringBuilder builder = new StringBuilder();
-            if (root == null) return null;
-            builder.append("(");
+        void preOrder(TreeNode root, StringBuilder builder) {
+            if (root == null) return;
             builder.append(root.val);
-            if (root.left == null && root.right == null) {
+            if (root.left != null || root.right != null) {
+                builder.append("(");
+                preOrder(root.left, builder);
                 builder.append(")");
-                return builder;
+                if (root.right != null) {
+                    builder.append("(");
+                    preOrder(root.right, builder);
+                    builder.append(")");
+                }
             }
-            StringBuilder left = preOrder(root.left);
-            StringBuilder right = preOrder(root.right);
-            if (left == null) {
-                builder.append("()");
-            } else {
-                builder.append(left);
-            }
-            if (right != null) {
-                builder.append(right);
-            }
-            builder.append(")");
-            return builder;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
