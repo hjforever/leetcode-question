@@ -47,8 +47,6 @@
 
 package io.hjforever.leetcode.editor.cn;
 
-import io.hjforever.leetcode.editor.cn.datastructure.Trie;
-
 class Q208ShiXianTrie {
     public static void main(String[] args) {
         //Solution solution = new Q208ShiXianTrie(QianZhuiShu)().new Solution();
