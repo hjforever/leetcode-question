@@ -33,8 +33,7 @@ package io.hjforever.leetcode.editor.cn;
 
 import io.hjforever.leetcode.editor.cn.common.TreeNode;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Q653LiangShuZhiHeIVShuRuBST {
     public static void main(String[] args) {
@@ -59,31 +58,25 @@ public class Q653LiangShuZhiHeIVShuRuBST {
      */
     class Solution {
 
-        List<Integer> list = new ArrayList<>();
+        Set<Integer> map = new HashSet<>();
+        boolean res;
 
         public boolean findTarget(TreeNode root, int k) {
             if (root == null || (root.left == null && root.right == null)) return false;
-            dfs(root);
-            int left = 0;
-            int right = list.size() - 1;
-            while (left < right) {
-                int sum = list.get(left) + list.get(right);
-                if (sum == k) {
-                    return true;
-                } else if (sum < k) {
-                    left++;
-                } else {
-                    right--;
-                }
-            }
-            return false;
+            dfs(root, k);
+            return res;
         }
 
-        void dfs(TreeNode root) {
+        void dfs(TreeNode root, int k) {
             if (root == null) return;
-            dfs(root.left);
-            list.add(root.val);
-            dfs(root.right);
+            dfs(root.left, k);
+            int val = root.val;
+            if (map.contains(k - val)) {
+                res = true;
+                return;
+            }
+            map.add(val);
+            dfs(root.right, k);
         }
 
     }
