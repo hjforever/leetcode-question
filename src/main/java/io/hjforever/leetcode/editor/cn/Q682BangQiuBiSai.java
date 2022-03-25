@@ -80,12 +80,14 @@ public class Q682BangQiuBiSai {
             if (ops == null || ops.length == 0) {
                 return 0;
             }
+            int res = 0;
             Stack<Integer> stack = new Stack<>();
             for (String op : ops) {
                 if (op.equals("C")) {
-                    stack.pop();
+                    res -= stack.pop();
                 } else if (op.equals("D")) {
                     Integer doubleNum = stack.peek() * 2;
+                    res += doubleNum;
                     stack.push(doubleNum);
                 } else if (op.equals("+")) {
                     Integer one = 0;
@@ -99,13 +101,12 @@ public class Q682BangQiuBiSai {
                     stack.push(two);
                     stack.push(one);
                     stack.push(one + two);
+                    res += (one + two);
                 } else {
-                    stack.push(Integer.valueOf(op));
+                    int num = Integer.valueOf(op);
+                    res += num;
+                    stack.push(num);
                 }
-            }
-            int res = 0;
-            while (!stack.isEmpty()) {
-                res += stack.pop();
             }
             return res;
         }
