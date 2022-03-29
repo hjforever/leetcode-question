@@ -60,7 +60,7 @@ package io.hjforever.leetcode.editor.cn;
 
 public class Q374CaiShuZiDaXiao {
     public static void main(String[] args) {
-        Solution solution = new Q374CaiShuZiDaXiao().new Solution();
+        //Solution solution = new Q374CaiShuZiDaXiao().new Solution();
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 
@@ -74,24 +74,24 @@ public class Q374CaiShuZiDaXiao {
      * int guess(int num);
      */
 
-    public class Solution extends GuessGame {
-        public int guessNumber(int n) {
-            int left =1 ;
-            int right = Integer.MAX_VALUE;
-
-            while(left<=right){
-                int mid = (right-left)/2 + left ;
-                if(guess(mid)==0){
-                    return  mid ;
-                }else if(guess(mid)==-1){
-                    right = mid-1 ;
-                }else {
-                    left = mid +1 ;
-                }
-            }
-            return  -1 ;
-        }
-    }
+//    public class Solution extends GuessGame {
+//        public int guessNumber(int n) {
+//            int left =1 ;
+//            int right = Integer.MAX_VALUE;
+//
+//            while(left<=right){
+//                int mid = (right-left)/2 + left ;
+//                if(guess(mid)==0){
+//                    return  mid ;
+//                }else if(guess(mid)==-1){
+//                    right = mid-1 ;
+//                }else {
+//                    left = mid +1 ;
+//                }
+//            }
+//            return  -1 ;
+//        }
+//    }
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
