@@ -41,6 +41,7 @@ package io.hjforever.leetcode.editor.cn;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.LinkedList;
 
 public class Q862HeZhiShaoWeiKDeZuiDuanZiShuZu {
     public static void main(String[] args) {
@@ -64,13 +65,13 @@ public class Q862HeZhiShaoWeiKDeZuiDuanZiShuZu {
                 sum[i + 1] = nums[i] + sum[i];
             }
             int res = n + 1;
-            Deque<Integer> deque = new ArrayDeque<>();
+            Deque<Integer> deque = new LinkedList<>();
             for (int i = 0; i <= n; i++) {
                 //判断当前sum是否小于前一个sum，如果小于则丢弃，保证递增队列
                 while (!deque.isEmpty() && sum[deque.peekLast()] >= sum[i]) {
                     deque.pollLast();
                 }
-                //保证队列大于
+                //保证队列大于target
                 while (!deque.isEmpty() && sum[i] - sum[deque.peekFirst()] >= k) {
                     res = Math.min(res, i - deque.pollFirst());
                 }
