@@ -60,14 +60,8 @@ public class Q1855XiaBiaoDuiZhongDeZuiDaJuLi {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int maxDistance(int[] nums1, int[] nums2) {
-            int res = 0;
-            int len1 = nums1.length;
-            int len2 = nums2.length;
-            for (int i = 0; i < len1 && i < len2; i++) {
-                int count = count(nums2, nums1[i], i);
-                res = Math.max(res, count);
-            }
-            return res;
+            return twoPointers(nums1, nums2);
+            //return binarySearch(nums1, nums2);
         }
 
         int count(int[] nums, int target, int left) {
@@ -82,6 +76,33 @@ public class Q1855XiaBiaoDuiZhongDeZuiDaJuLi {
                 }
             }
             return nums[l] >= target ? (l - left) : 0;
+        }
+
+        //binary search
+        public int binarySearch(int[] nums1, int[] nums2) {
+            int res = 0;
+            int len1 = nums1.length;
+            int len2 = nums2.length;
+            for (int i = 0; i < len1 && i < len2; i++) {
+                int count = count(nums2, nums1[i], i);
+                res = Math.max(res, count);
+            }
+            return res;
+        }
+
+        //two pointers
+        public int twoPointers(int[] nums1, int[] nums2) {
+            int p = 0;
+            int q = 0;
+            int len1 = nums1.length;
+            int len2 = nums2.length;
+            while (p < len1 && q < len2) {
+                if (nums1[p] > nums2[q]) {
+                    p++;
+                }
+                q++;
+            }
+            return Math.max(q - p - 1, 0);
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
