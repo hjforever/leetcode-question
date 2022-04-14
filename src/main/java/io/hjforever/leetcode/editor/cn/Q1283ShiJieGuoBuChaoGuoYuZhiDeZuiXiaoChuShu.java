@@ -50,16 +50,15 @@ import java.util.Arrays;
 public class Q1283ShiJieGuoBuChaoGuoYuZhiDeZuiXiaoChuShu {
     public static void main(String[] args) {
         Solution solution = new Q1283ShiJieGuoBuChaoGuoYuZhiDeZuiXiaoChuShu().new Solution();
-       // System.out.println(Integer.MAX_VALUE);
+        // System.out.println(Integer.MAX_VALUE);
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int smallestDivisor(int[] nums, int threshold) {
             //二分查找
-            int maxNum = Arrays.stream(nums).max().getAsInt();
             int left = 1;
-            int right = maxNum;
+            int right = (int) (1e6 + 10);
 
             int res = -1;
             while (left <= right) {
