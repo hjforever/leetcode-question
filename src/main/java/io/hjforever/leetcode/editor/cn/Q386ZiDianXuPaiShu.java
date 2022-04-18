@@ -30,6 +30,7 @@
 
 package io.hjforever.leetcode.editor.cn;
 
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -43,15 +44,33 @@ public class Q386ZiDianXuPaiShu {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public List<Integer> lexicalOrder(int n) {
-            //1.10叉树遍历
+            //1.10叉树遍历.dfs,不满足空间复杂度，需要用迭代替代
             //2.直接排序
-            return Stream.iterate(1, num -> num + 1)
-                    .limit(n)
-                    .sorted(Comparator.comparing(String::valueOf))
-                    .collect(Collectors.toList());
+            //
+//            return Stream.iterate(1, num -> num + 1)
+//                    .limit(n)
+//                    .sorted(Comparator.comparing(String::valueOf))
+//                    .collect(Collectors.toList());
+
+            List<Integer> res = new ArrayList<>();
+            int num = 1;
+            for (int i = 0; i < n; i++) {
+                res.add(num);
+                //再添加后续位数直到>n
+                if (num * 10 <= n) {
+                    num *= 10;
+                } else {
+                    //后续位置加1
+                    while (num % 10 == 9 || num + 1 > n) {
+                        num /= 10;
+                    }
+                    num++;
+                }
+            }
+            return res;
+
         }
 
-        // 树的dfs
 
     }
 //leetcode submit region end(Prohibit modification and deletion)
