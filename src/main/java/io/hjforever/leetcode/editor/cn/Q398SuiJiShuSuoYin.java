@@ -34,7 +34,7 @@ public class Q398SuiJiShuSuoYin {
     class Solution {
         //蓄水池采样 reservoir sampliping
         int[] nums;
-
+        Random random = new Random();
         public Solution(int[] nums) {
             this.nums = nums;
         }
@@ -42,8 +42,6 @@ public class Q398SuiJiShuSuoYin {
         public int pick(int target) {
             int count = 0;
             int ans = 0;
-            Random random = new Random();
-            random.nextInt(2);
             for (int i = 0; i < nums.length; i++) {
                 if (nums[i] == target) {
                     count++;
