@@ -55,7 +55,7 @@ public class Q812LargestTriangleArea {
 
         //行列式
         public double triangleArea(int x1, int y1, int x2, int y2, int x3, int y3) {
-            return 0.5 * Math.abs(x1 * y2 + x2   * y3 + x3 * y1 - x1 * y3 - x2 * y1 - x3 * y2);
+            return 0.5 * Math.abs(x1 * y2 + x2 * y3 + x3 * y1 - x1 * y3 - x2 * y1 - x3 * y2);
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
