@@ -53,10 +53,6 @@
 
 package io.hjforever.leetcode.editor.cn;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class Q2055LaZhuZhiJianDePanZi {
     public static void main(String[] args) {
         Solution solution = new Q2055LaZhuZhiJianDePanZi().new Solution();
@@ -66,7 +62,6 @@ public class Q2055LaZhuZhiJianDePanZi {
     class Solution {
         public int[] platesBetweenCandles(String s, int[][] queries) {
             //预处理 + 前缀和
-
             int n = s.length();
             //盘子前缀和，快速求出区间内的盘子数量
             int[] preSum = new int[n];
