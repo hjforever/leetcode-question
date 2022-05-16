@@ -81,7 +81,6 @@ public class Q2069WalkingRobotSimulationII {
     class Robot {
         int m;
         int n;
-        int[][] grid;
         int x = 0;
         int y = 0;
         int curIndex = 0;
@@ -90,12 +89,10 @@ public class Q2069WalkingRobotSimulationII {
         public Robot(int width, int height) {
             m = height;
             n = width;
-            grid = new int[m][n];
         }
 
         public void step(int num) {
             if (num == 0) return;
-
             if (num > ((m + n - 2) * 2)) {
                 //超过一圈取余
                 num %= ((m + n - 2) * 2);
