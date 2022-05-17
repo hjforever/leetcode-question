@@ -55,33 +55,26 @@ public class Q513FindBottomLeftTreeValue {
      * }
      */
     class Solution {
-        int ans ;
+        int ans;
         int maxLevel;
-        int maxLeft ;
 
         //dfs
         public int findBottomLeftValue(TreeNode root) {
-            if(root==null) return 0 ;
-            ans  = root.val ;
-            maxLeft = 0 ;
-            maxLevel = 0 ;
-            dfs(root, 0, 0);
+            if (root == null) return 0;
+            ans = root.val;
+            maxLevel = 0;
+            dfs(root, 0);
             return ans;
         }
 
-        void dfs(TreeNode root, int level, int leftBottom) {
+        void dfs(TreeNode root, int level) {
             if (root == null) return;
-            dfs(root.left, level + 1, leftBottom + 1);
+            dfs(root.left, level + 1);
             if (level > maxLevel) {
                 ans = root.val;
                 maxLevel = level;
-            } else if (level == maxLevel) {
-                if (leftBottom > maxLeft) {
-                    maxLeft = leftBottom;
-                    ans = root.val;
-                }
             }
-            dfs(root.right, level + 1, leftBottom - 1);
+            dfs(root.right, level + 1);
         }
 
     }
