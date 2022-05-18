@@ -59,13 +59,7 @@ public class Q668KthSmallestNumberInMultiplicationTable {
 
         boolean check(int m, int n, int target, int k) {
             int ans = 0;
-            int r = m;
-            for (int i = 1; i <= n; i++) {
-                while (r >= 1 && i * r > target) {
-                    r--;
-                }
-                ans += r;
-            }
+            for(int i=1;i<=n;i++){ans+=Math.min(m,target/i);}
             return ans >= k;
         }
     }
