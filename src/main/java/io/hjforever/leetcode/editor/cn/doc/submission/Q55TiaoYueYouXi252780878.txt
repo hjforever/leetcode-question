@@ -1,0 +1,16 @@
+class Solution {
+      public boolean canJump(int[] nums) {
+        int newPoint = nums.length-1 ;
+        for(int i=nums.length-2;i>=0;i-- ) {
+            //当此数能达到最近的节点，则设置此节点为最近节点
+            //当第一个节点为最近节点说明可以到达终点
+            int num = nums[i] ;
+            if(i+num>=newPoint){
+                newPoint = i ;
+            }
+        }
+        return newPoint==0 ;
+      }
+}
+//runtime:1 ms
+//memory:39.7 MB

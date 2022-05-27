@@ -1,0 +1,18 @@
+class Solution {
+    public List<List<String>> groupAnagrams(String[] strs) {
+        Map<String, List<String>> map = new HashMap<>();
+        for (String str : strs) {
+            char[] freqT = new char[26];
+            for (char c : str.toCharArray()) {
+                freqT[c - 'a']++;
+            }
+            String key = new String(freqT);
+            List<String> curList = map.getOrDefault(key, new ArrayList<>());
+            curList.add(str);
+            map.put(key, curList);
+        }
+        return new ArrayList<>(map.values());
+    }
+}
+//runtime:5 ms
+//memory:44.8 MB

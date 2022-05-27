@@ -1,0 +1,22 @@
+<p>Given a <strong>sorted</strong> integer array <code>nums</code> and three integers <code>a</code>, <code>b</code> and <code>c</code>, apply a quadratic function of the form <code>f(x) = ax<sup>2</sup> + bx + c</code> to each element <code>nums[i]</code> in the array, and return <em>the array in a sorted order</em>.</p>
+
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [-4,-2,2,4], a = 1, b = 3, c = 5
+<strong>Output:</strong> [3,9,15,33]
+</pre><p><strong>Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [-4,-2,2,4], a = -1, b = 3, c = 5
+<strong>Output:</strong> [-23,-5,1,7]
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= nums.length &lt;= 200</code></li>
+	<li><code>-100 &lt;= nums[i], a, b, c &lt;= 100</code></li>
+	<li><code>nums</code> is sorted in <strong>ascending</strong> order.</li>
+</ul>
+
+<p>&nbsp;</p>
+<p><strong>Follow up:</strong> Could you solve it in <code>O(n)</code> time?</p>
+<div><div>Related Topics</div><div><li>数组</li><li>数学</li><li>双指针</li><li>排序</li></div></div><br><div><li>👍 59</li><li>👎 0</li></div>
