@@ -74,7 +74,7 @@ public class Q1818MinimumAbsoluteSumDifference {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int minAbsoluteSumDiff(int[] nums1, int[] nums2) {
-            final int MOD = (int) 1e7;
+            final int MOD = (int) 1e9+7;
             int n = nums1.length;
             int[] temp = new int[n];
             System.arraycopy(nums1, 0, temp, 0, n);
