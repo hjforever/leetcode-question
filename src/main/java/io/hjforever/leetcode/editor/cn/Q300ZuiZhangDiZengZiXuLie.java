@@ -48,6 +48,8 @@
 
 package io.hjforever.leetcode.editor.cn;
 
+import java.util.Arrays;
+
 public class Q300ZuiZhangDiZengZiXuLie {
     public static void main(String[] args) {
         Solution solution = new Q300ZuiZhangDiZengZiXuLie().new Solution();
@@ -56,25 +58,23 @@ public class Q300ZuiZhangDiZengZiXuLie {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int lengthOfLIS(int[] nums) {
-            //dp(i) = (dp(j)+1) && i>j , nums[i]>nums[j]
-            if (nums == null || nums.length == 0) return 0;
-            if (nums.length == 1) return 1;
+            //dp[i] = dp[j] + 1 && nums[i]>nums[j] && i>j
             int n = nums.length;
             int[] dp = new int[n];
-            int res = 1 ;
-            for (int i = 0; i < n; i++) {
-                dp[i] = 1;
-            }
-            for (int i = 1; i < nums.length; i++) {
-                for (int j = 0; j < i; j++) {
+            Arrays.fill(dp, 1);
+            int res = 1;
+            for (int i = 1; i < n; i++) {
+                for (int j = i - 1; j >= 0; j--) {
                     if (nums[i] > nums[j]) {
-                        dp[i] = Math.max(dp[j] + 1, dp[i]);
+                        dp[i] = Math.max(dp[i], dp[j] + 1);
                     }
                 }
                 res = Math.max(dp[i], res);
             }
             return res;
         }
+
+        // dynamic programming
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
