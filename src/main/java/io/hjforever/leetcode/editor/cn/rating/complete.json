@@ -1,0 +1,107 @@
+[
+  {
+    "Rating": 1556.8824239708,
+    "ID": 2131,
+    "Title": "Longest Palindrome by Concatenating Two Letter Words",
+    "completeTime": "2022-05-28 03:39:47",
+    "timestamp": 1653680387522
+  },
+  {
+    "Rating": 1578.8503818621,
+    "ID": 1034,
+    "Title": "Coloring A Border",
+    "completeTime": "2022-05-28 03:39:47",
+    "timestamp": 1653680387522
+  },
+  {
+    "Rating": 1501.1152614679,
+    "ID": 1090,
+    "Title": "Largest Values From Labels",
+    "completeTime": "2022-05-28 03:39:47",
+    "timestamp": 1653680387522
+  },
+  {
+    "Rating": 1580.3620959714,
+    "ID": 1839,
+    "Title": "Longest Substring Of All Vowels in Order",
+    "completeTime": "2022-05-28 06:20:36",
+    "timestamp": 1653733236904
+  },
+  {
+    "Rating": 1530.0343519239,
+    "ID": 1726,
+    "Title": "Tuple with Same Product",
+    "completeTime": "2022-05-28 06:20:36",
+    "timestamp": 1653733236904
+  },
+  {
+    "Rating": 1501.6846714598,
+    "ID": 1750,
+    "Title": "Minimum Length of String After Deleting Similar Ends",
+    "completeTime": "2022-05-28 06:20:36",
+    "timestamp": 1653733236904
+  },
+  {
+    "Rating": 1597.0215918551,
+    "ID": 1247,
+    "Title": "Minimum Swaps to Make Strings Equal",
+    "completeTime": "2022-05-30 10:02:54",
+    "timestamp": 1653876174624
+  },
+  {
+    "Rating": 1547.0385279086,
+    "ID": 758,
+    "Title": "Bold Words in String",
+    "completeTime": "2022-05-30 10:02:54",
+    "timestamp": 1653876174624
+  },
+  {
+    "Rating": 1541.348438509,
+    "ID": 1007,
+    "Title": "Minimum Domino Rotations For Equal Row",
+    "completeTime": "2022-05-30 10:02:54",
+    "timestamp": 1653876174624
+  },
+  {
+    "Rating": 1507.1617507911,
+    "ID": 2105,
+    "Title": "Watering Plants II",
+    "completeTime": "2022-05-30 10:49:45",
+    "timestamp": 1653878985874
+  },
+  {
+    "Rating": 1530.4652027753,
+    "ID": 1657,
+    "Title": "Determine if Two Strings Are Close",
+    "completeTime": "2022-05-30 10:49:45",
+    "timestamp": 1653878985874
+  },
+  {
+    "Rating": 1506.8958220609,
+    "ID": 1387,
+    "Title": "Sort Integers by The Power Value",
+    "completeTime": "2022-05-30 10:49:45",
+    "timestamp": 1653878985874
+  },
+  {
+    "Rating": 1534.325005151,
+    "ID": 865,
+    "Title": "Smallest Subtree with all the Deepest Nodes",
+    "completeTime": "2022-05-30 01:31:49",
+    "timestamp": 1653888709446
+  },
+  {
+    "Rating": 1593.8926580448,
+    "ID": 1577,
+    "Title": "Number of Ways Where Square of Number Is Equal to Product of Two Numbers",
+    "completeTime": "2022-05-30 01:31:49",
+    "timestamp": 1653888709446
+  },
+  {
+    "Rating": 1533.9285875234,
+    "ID": 1362,
+    "Title": "Closest Divisors",
+    "completeTime": "2022-05-30 01:31:49",
+    "timestamp": 1653888709446
+  }
+]
