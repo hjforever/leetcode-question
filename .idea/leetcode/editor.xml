@@ -3,6 +3,17 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1573NumberOfWaysToSplitAString.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1573NumberOfWaysToSplitAString.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1573" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1573NumberOfWaysToSplitAString.java" />
+              <option name="titleSlug" value="number-of-ways-to-split-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q473MatchsticksToSquare.java">
           <value>
             <LeetcodeEditor>

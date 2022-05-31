@@ -26,7 +26,7 @@
 
 package io.hjforever.leetcode.editor.cn;
 
-public class QMianShiTi0105OneAwayLCCI {
+class QMianShiTi0105OneAwayLCCI {
     public static void main(String[] args) {
         //Solution solution = new QMianShiTi01.05OneAwayLCCI().new Solution();
     }
