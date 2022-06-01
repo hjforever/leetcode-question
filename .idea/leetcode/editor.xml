@@ -25,6 +25,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1253ReconstructA2RowBinaryMatrix.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1253ReconstructA2RowBinaryMatrix.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1253" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1253ReconstructA2RowBinaryMatrix.java" />
+              <option name="titleSlug" value="reconstruct-a-2-row-binary-matrix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1573NumberOfWaysToSplitAString.java">
           <value>
             <LeetcodeEditor>
