@@ -103,5 +103,47 @@
     "Title": "Closest Divisors",
     "completeTime": "2022-05-30 01:31:49",
     "timestamp": 1653888709446
+  },
+  {
+    "Rating": 1509.5562928491,
+    "ID": 2216,
+    "Title": "Minimum Deletions to Make Array Beautiful",
+    "completeTime": "2022-06-01 03:58:37",
+    "timestamp": 1654027117086
+  },
+  {
+    "Rating": 1521.1768537583,
+    "ID": 1041,
+    "Title": "Robot Bounded In Circle",
+    "completeTime": "2022-06-01 03:58:37",
+    "timestamp": 1654027117086
+  },
+  {
+    "Rating": 1590.547713663,
+    "ID": 1573,
+    "Title": "Number of Ways to Split a String",
+    "completeTime": "2022-06-01 03:58:37",
+    "timestamp": 1654027117086
+  },
+  {
+    "Rating": 1505.8669082864,
+    "ID": 1253,
+    "Title": "Reconstruct a 2-Row Binary Matrix",
+    "completeTime": "2022-06-01 07:22:42",
+    "timestamp": 1654082562630
+  },
+  {
+    "Rating": 1585.5793143983,
+    "ID": 1029,
+    "Title": "Two City Scheduling",
+    "completeTime": "2022-06-01 07:22:42",
+    "timestamp": 1654082562630
+  },
+  {
+    "Rating": 1527.6868660176,
+    "ID": 1921,
+    "Title": "Eliminate Maximum Number of Monsters",
+    "completeTime": "2022-06-01 07:22:42",
+    "timestamp": 1654082562630
   }
 ]
