@@ -47,7 +47,7 @@ public class SegmentTree {
         int mid = node.start + (node.end - node.start) / 2;
         if (index <= mid) {
             update(node.left, index, val);
-        } else if (index > mid) {
+        } else {
             update(node.right, index, val);
         }
         node.sum = node.left.sum + node.right.sum;
