@@ -95,7 +95,7 @@ public class RandomSelectProblem {
     }
 
     public static void main(String[] args) {
-        //select(1500, 1600);
-        complete();
+        select(1500, 1600);
+        //complete();
     }
 }
