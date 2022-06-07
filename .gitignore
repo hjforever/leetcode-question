@@ -3,7 +3,7 @@
 leetcode-question.iml
 # Log file
 *.log
-
+.idea/libraries
 # BlueJ files
 *.ctxt
 
