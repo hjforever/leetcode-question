@@ -102,6 +102,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1415TheKThLexicographicalStringOfAllHappyStringsOfLengthN.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1415TheKThLexicographicalStringOfAllHappyStringsOfLengthN.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1415" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1415TheKThLexicographicalStringOfAllHappyStringsOfLengthN.java" />
+              <option name="titleSlug" value="the-k-th-lexicographical-string-of-all-happy-strings-of-length-n" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1423MaximumPointsYouCanObtainFromCards.java">
           <value>
             <LeetcodeEditor>
