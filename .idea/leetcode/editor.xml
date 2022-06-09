@@ -300,6 +300,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q497RandomPointInNonOverlappingRectangles.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q497RandomPointInNonOverlappingRectangles.md" />
+              <option name="frontendQuestionId" value="leetcode.cn497" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q497RandomPointInNonOverlappingRectangles.java" />
+              <option name="titleSlug" value="random-point-in-non-overlapping-rectangles" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q732MyCalendarIII.java">
           <value>
             <LeetcodeEditor>
