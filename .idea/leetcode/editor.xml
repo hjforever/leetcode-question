@@ -190,6 +190,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1599MaximumProfitOfOperatingACentennialWheel.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1599MaximumProfitOfOperatingACentennialWheel.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1599" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1599MaximumProfitOfOperatingACentennialWheel.java" />
+              <option name="titleSlug" value="maximum-profit-of-operating-a-centennial-wheel" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1664WaysToMakeAFairArray.java">
           <value>
             <LeetcodeEditor>
