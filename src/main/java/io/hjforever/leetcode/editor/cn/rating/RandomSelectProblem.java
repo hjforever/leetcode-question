@@ -48,6 +48,9 @@ public class RandomSelectProblem {
     static void select(double minScore, double maxScore) {
         Map<Integer, CompleteData> completeDataMap = completeDatas.stream().collect(Collectors.toMap(CompleteData::getID, Function.identity()));
         List<Problem> list = problems.stream().filter(problem -> !completeDataMap.containsKey(problem.getID())).filter(problem -> problem.getRating() >= minScore && problem.getRating() <= maxScore).collect(Collectors.toList());
+        if (list == null || list.size() <= 0) {
+            System.out.println("题目已完成！，请调整分数策略");
+        }
         Random random = new Random();
         List<CompleteData> doing = new ArrayList<>();
         String format = "随机选题_%d , ID:%d , title:%s , rating :%s ";
@@ -55,17 +58,25 @@ public class RandomSelectProblem {
         int i = 0;
         while (i < 3) {
             int idx = random.nextInt(list.size());
-            if (set.contains(idx)) {
-                continue;
+            int k = 0;
+            while (set.contains(idx)) {
+                idx = random.nextInt(list.size());
+                k++;
+                if (k > 10) {
+                    continue;
+                }
             }
             i++;
-            Problem p = list.get(idx);
-            CompleteData doingData = new CompleteData();
-            doingData.setID(p.getID());
-            doingData.setRating(p.getRating());
-            doingData.setTitle(p.getTitle());
-            doing.add(doingData);
-            System.out.println(String.format(format, i, p.getID(), p.getTitle(), p.getRating()));
+            if (!set.contains(idx)) {
+                Problem p = list.get(idx);
+                CompleteData doingData = new CompleteData();
+                doingData.setID(p.getID());
+                doingData.setRating(p.getRating());
+                doingData.setTitle(p.getTitle());
+                doing.add(doingData);
+                System.out.println(String.format(format, i, p.getID(), p.getTitle(), p.getRating()));
+            }
+            set.add(idx);
         }
         //写入doing 文件
         try {

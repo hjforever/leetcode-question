@@ -245,6 +245,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1743RestoreTheArrayFromAdjacentPairs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1743RestoreTheArrayFromAdjacentPairs.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1743" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1743RestoreTheArrayFromAdjacentPairs.java" />
+              <option name="titleSlug" value="restore-the-array-from-adjacent-pairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1764FormArrayByConcatenatingSubarraysOfAnotherArray.java">
           <value>
             <LeetcodeEditor>
