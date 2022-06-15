@@ -421,6 +421,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q719FindKThSmallestPairDistance.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q719FindKThSmallestPairDistance.md" />
+              <option name="frontendQuestionId" value="leetcode.cn719" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q719FindKThSmallestPairDistance.java" />
+              <option name="titleSlug" value="find-k-th-smallest-pair-distance" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q732MyCalendarIII.java">
           <value>
             <LeetcodeEditor>
