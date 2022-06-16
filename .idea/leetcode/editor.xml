@@ -91,6 +91,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1181BeforeAndAfterPuzzle.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1181BeforeAndAfterPuzzle.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1181" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1181BeforeAndAfterPuzzle.java" />
+              <option name="titleSlug" value="before-and-after-puzzle" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1209RemoveAllAdjacentDuplicatesInStringII.java">
           <value>
             <LeetcodeEditor>
