@@ -630,6 +630,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q779KThSymbolInGrammar.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q779KThSymbolInGrammar.md" />
+              <option name="frontendQuestionId" value="leetcode.cn779" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q779KThSymbolInGrammar.java" />
+              <option name="titleSlug" value="k-th-symbol-in-grammar" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q794ValidTicTacToeState.java">
           <value>
             <LeetcodeEditor>
