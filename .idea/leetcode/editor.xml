@@ -454,6 +454,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2178MaximumSplitOfPositiveEvenIntegers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q2178MaximumSplitOfPositiveEvenIntegers.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2178" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2178MaximumSplitOfPositiveEvenIntegers.java" />
+              <option name="titleSlug" value="maximum-split-of-positive-even-integers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2211CountCollisionsOnARoad.java">
           <value>
             <LeetcodeEditor>
