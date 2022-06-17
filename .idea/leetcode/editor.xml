@@ -135,6 +135,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1218LongestArithmeticSubsequenceOfGivenDifference.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1218LongestArithmeticSubsequenceOfGivenDifference.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1218" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1218LongestArithmeticSubsequenceOfGivenDifference.java" />
+              <option name="titleSlug" value="longest-arithmetic-subsequence-of-given-difference" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1229MeetingScheduler.java">
           <value>
             <LeetcodeEditor>
