@@ -718,6 +718,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q892SurfaceAreaOf3DShapes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q892SurfaceAreaOf3DShapes.md" />
+              <option name="frontendQuestionId" value="leetcode.cn892" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q892SurfaceAreaOf3DShapes.java" />
+              <option name="titleSlug" value="surface-area-of-3d-shapes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q900RLEIterator.java">
           <value>
             <LeetcodeEditor>
