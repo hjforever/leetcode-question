@@ -641,6 +641,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q708InsertIntoASortedCircularLinkedList.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q708InsertIntoASortedCircularLinkedList.md" />
+              <option name="frontendQuestionId" value="leetcode.cn708" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q708InsertIntoASortedCircularLinkedList.java" />
+              <option name="titleSlug" value="insert-into-a-sorted-circular-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q719FindKThSmallestPairDistance.java">
           <value>
             <LeetcodeEditor>
@@ -792,6 +803,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q986IntervalListIntersections.java" />
               <option name="titleSlug" value="interval-list-intersections" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/QJianZhiOfferII029PaiXuDeXunHuanLianBiao.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/QJianZhiOfferII029PaiXuDeXunHuanLianBiao.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer II 029" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/QJianZhiOfferII029PaiXuDeXunHuanLianBiao.java" />
+              <option name="titleSlug" value="4ueAj6" />
             </LeetcodeEditor>
           </value>
         </entry>
