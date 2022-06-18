@@ -520,6 +520,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2201CountArtifactsThatCanBeExtracted.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q2201CountArtifactsThatCanBeExtracted.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2201" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2201CountArtifactsThatCanBeExtracted.java" />
+              <option name="titleSlug" value="count-artifacts-that-can-be-extracted" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2211CountCollisionsOnARoad.java">
           <value>
             <LeetcodeEditor>
