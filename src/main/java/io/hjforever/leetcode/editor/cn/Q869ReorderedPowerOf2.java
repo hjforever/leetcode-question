@@ -65,45 +65,31 @@ public class Q869ReorderedPowerOf2 {
 
         //根据有限的范围先求出符合条件的值，然后在和输入参数比较是否一致
         public boolean reorderedPowerOf2(int n) {
-            if (n == 1 || n == 2 || n == 4) {
-                return true;
+            int max = (int) 1e9;
+            String nStr = String.valueOf(n);
+            int[] cnt = new int[10];
+            for (int i = 0; i < nStr.length(); i++) {
+                cnt[nStr.charAt(i) - '0']++;
             }
-            List<String> list = numToStringList(n);
-            //此处可以剪枝
-            int maxValue = (int) Math.pow(10, list.size());
-            //获取对应范围内所有的2次幂数然后和输入参数n判定
-            for (int i = 1; i <= maxValue; i <<= 1) {
-                //判断是否成立
-                if (preOrderSame(i, list)) {
+            for (int i = 1; i <= max; i = i << 1) {
+                String s = String.valueOf(i);
+                if (s.length() == nStr.length() && check(cnt, String.valueOf(i))) {
                     return true;
                 }
             }
             return false;
         }
 
-        List<String> numToStringList(int m) {
-            int n = m;
-            List<String> list = new ArrayList<>();
-            while (n >= 10) {
-                int mod = n % 10;
-                list.add(String.valueOf(mod));
-                n = n / 10;
+        boolean check(int[] cnt, String s2) {
+            int[] ct2 = new int[10];
+            for (int i = 0; i < s2.length(); i++) {
+                ct2[s2.charAt(i) - '0']++;
             }
-            list.add(String.valueOf(n));
-            return list;
+            for (int i = 0; i < 10; i++) {
+                if (cnt[i] != ct2[i]) return false;
+            }
+            return true;
         }
-
-        boolean preOrderSame(int n, List<String> list) {
-            List<String> orderList = numToStringList(n);
-            if (list.size() != orderList.size()) {
-                return false;
-            }
-            for (String s : list) {
-                orderList.remove(s);
-            }
-            return orderList.isEmpty();
-        }
-
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
