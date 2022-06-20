@@ -553,6 +553,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1829MaximumXORForEachQuery.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1829MaximumXORForEachQuery.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1829" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1829MaximumXORForEachQuery.java" />
+              <option name="titleSlug" value="maximum-xor-for-each-query" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1861RotatingTheBox.java">
           <value>
             <LeetcodeEditor>
