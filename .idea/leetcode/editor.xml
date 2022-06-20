@@ -311,6 +311,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1311GetWatchedVideosByYourFriends.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1311GetWatchedVideosByYourFriends.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1311" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1311GetWatchedVideosByYourFriends.java" />
+              <option name="titleSlug" value="get-watched-videos-by-your-friends" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1329SortTheMatrixDiagonally.java">
           <value>
             <LeetcodeEditor>
