@@ -60,20 +60,15 @@ public class Q881BoatsToSavePeople {
             int j = n - 1;
             int ans = 0;
             while (i <= j) {
-                if (i == j) {
-                    ans++;
+                if (people[j] + people[i] <= limit) {
                     i++;
                     j--;
+                    ans++;
                 } else {
-                    if (people[j] + people[i] <= limit) {
-                        i++;
-                        j--;
-                        ans++;
-                    } else {
-                        j--;
-                        ans++;
-                    }
+                    j--;
+                    ans++;
                 }
+
             }
             return ans;
         }
