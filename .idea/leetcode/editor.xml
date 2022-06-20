@@ -3,6 +3,17 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1004MaxConsecutiveOnesIII.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1004MaxConsecutiveOnesIII.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1004" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1004MaxConsecutiveOnesIII.java" />
+              <option name="titleSlug" value="max-consecutive-ones-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1008ConstructBinarySearchTreeFromPreorderTraversal.java">
           <value>
             <LeetcodeEditor>
