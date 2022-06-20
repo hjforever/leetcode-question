@@ -190,6 +190,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1182ShortestDistanceToTargetColor.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1182ShortestDistanceToTargetColor.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1182" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1182ShortestDistanceToTargetColor.java" />
+              <option name="titleSlug" value="shortest-distance-to-target-color" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1209RemoveAllAdjacentDuplicatesInStringII.java">
           <value>
             <LeetcodeEditor>
