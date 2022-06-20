@@ -234,6 +234,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1296DivideArrayInSetsOfKConsecutiveNumbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1296DivideArrayInSetsOfKConsecutiveNumbers.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1296" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1296DivideArrayInSetsOfKConsecutiveNumbers.java" />
+              <option name="titleSlug" value="divide-array-in-sets-of-k-consecutive-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1329SortTheMatrixDiagonally.java">
           <value>
             <LeetcodeEditor>
@@ -836,6 +847,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q822CardFlippingGame.java" />
               <option name="titleSlug" value="card-flipping-game" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q846HandOfStraights.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q846HandOfStraights.md" />
+              <option name="frontendQuestionId" value="leetcode.cn846" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q846HandOfStraights.java" />
+              <option name="titleSlug" value="hand-of-straights" />
             </LeetcodeEditor>
           </value>
         </entry>
