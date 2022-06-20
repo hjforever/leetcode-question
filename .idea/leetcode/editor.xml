@@ -344,6 +344,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1452PeopleWhoseListOfFavoriteCompaniesIsNotASubsetOfAnotherList.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1452PeopleWhoseListOfFavoriteCompaniesIsNotASubsetOfAnotherList.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1452" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1452PeopleWhoseListOfFavoriteCompaniesIsNotASubsetOfAnotherList.java" />
+              <option name="titleSlug" value="people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1461CheckIfAStringContainsAllBinaryCodesOfSizeK.java">
           <value>
             <LeetcodeEditor>
