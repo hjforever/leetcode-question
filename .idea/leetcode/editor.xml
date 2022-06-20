@@ -938,6 +938,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q893GroupsOfSpecialEquivalentStrings.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q893GroupsOfSpecialEquivalentStrings.md" />
+              <option name="frontendQuestionId" value="leetcode.cn893" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q893GroupsOfSpecialEquivalentStrings.java" />
+              <option name="titleSlug" value="groups-of-special-equivalent-strings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q900RLEIterator.java">
           <value>
             <LeetcodeEditor>
