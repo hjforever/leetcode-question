@@ -278,6 +278,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1289MinimumFallingPathSumII.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1289MinimumFallingPathSumII.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1289" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1289MinimumFallingPathSumII.java" />
+              <option name="titleSlug" value="minimum-falling-path-sum-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1296DivideArrayInSetsOfKConsecutiveNumbers.java">
           <value>
             <LeetcodeEditor>
