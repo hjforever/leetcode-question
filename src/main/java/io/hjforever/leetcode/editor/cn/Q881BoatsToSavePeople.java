@@ -68,7 +68,6 @@ public class Q881BoatsToSavePeople {
                     j--;
                     ans++;
                 }
-
             }
             return ans;
         }
