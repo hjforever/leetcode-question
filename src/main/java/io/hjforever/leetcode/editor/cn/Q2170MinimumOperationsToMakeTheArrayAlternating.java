@@ -63,6 +63,9 @@ public class Q2170MinimumOperationsToMakeTheArrayAlternating {
         int[] m1 = new int[N], m2 = new int[N];
 
         // greedy
+        //用hash表记录奇数下标和偶数下标对应分别出现最多的第一第二名对应的值和次数，
+        // 如果奇数第一名和偶数第一名对应的数组值不相等，直接返回结果,
+        // 如果相等判断是用奇数第二名更改次数少还是偶数第二名更改次数少，返回较小值
         public int minimumOperations(int[] nums) {
             int n = nums.length;
             Arrays.fill(m1, 0);
