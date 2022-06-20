@@ -87,8 +87,9 @@ public class Q904FruitIntoBaskets {
                         map.put(num, count - 1);
                     }
                 }
+                ans = Math.max(ans, right - left + 1);
                 right++;
-                ans = Math.max(ans, right - left);
+
             }
             return ans;
         }
