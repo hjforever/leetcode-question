@@ -124,6 +124,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1108DefangingAnIPAddress.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1108DefangingAnIPAddress.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1108" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1108DefangingAnIPAddress.java" />
+              <option name="titleSlug" value="defanging-an-ip-address" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1110DeleteNodesAndReturnForest.java">
           <value>
             <LeetcodeEditor>
