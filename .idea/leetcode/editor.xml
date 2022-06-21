@@ -377,6 +377,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1339MaximumProductOfSplittedBinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1339MaximumProductOfSplittedBinaryTree.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1339" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1339MaximumProductOfSplittedBinaryTree.java" />
+              <option name="titleSlug" value="maximum-product-of-splitted-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1367LinkedListInBinaryTree.java">
           <value>
             <LeetcodeEditor>
