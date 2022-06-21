@@ -806,6 +806,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2196CreateBinaryTreeFromDescriptions.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q2196CreateBinaryTreeFromDescriptions.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2196" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2196CreateBinaryTreeFromDescriptions.java" />
+              <option name="titleSlug" value="create-binary-tree-from-descriptions" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2201CountArtifactsThatCanBeExtracted.java">
           <value>
             <LeetcodeEditor>
