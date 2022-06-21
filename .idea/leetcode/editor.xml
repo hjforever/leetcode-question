@@ -751,6 +751,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1975MaximumMatrixSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1975MaximumMatrixSum.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1975" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1975MaximumMatrixSum.java" />
+              <option name="titleSlug" value="maximum-matrix-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1992FindAllGroupsOfFarmland.java">
           <value>
             <LeetcodeEditor>
