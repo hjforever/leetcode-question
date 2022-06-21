@@ -894,6 +894,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2226MaximumCandiesAllocatedToKChildren.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q2226MaximumCandiesAllocatedToKChildren.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2226" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2226MaximumCandiesAllocatedToKChildren.java" />
+              <option name="titleSlug" value="maximum-candies-allocated-to-k-children" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2275LargestCombinationWithBitwiseANDGreaterThanZero.java">
           <value>
             <LeetcodeEditor>
