@@ -806,6 +806,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2195AppendKIntegersWithMinimalSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q2195AppendKIntegersWithMinimalSum.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2195" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2195AppendKIntegersWithMinimalSum.java" />
+              <option name="titleSlug" value="append-k-integers-with-minimal-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2196CreateBinaryTreeFromDescriptions.java">
           <value>
             <LeetcodeEditor>
