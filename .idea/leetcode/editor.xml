@@ -542,6 +542,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1604AlertUsingSameKeyCardThreeOrMoreTimesInAOneHourPeriod.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1604AlertUsingSameKeyCardThreeOrMoreTimesInAOneHourPeriod.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1604" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1604AlertUsingSameKeyCardThreeOrMoreTimesInAOneHourPeriod.java" />
+              <option name="titleSlug" value="alert-using-same-key-card-three-or-more-times-in-a-one-hour-period" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1615MaximalNetworkRank.java">
           <value>
             <LeetcodeEditor>
