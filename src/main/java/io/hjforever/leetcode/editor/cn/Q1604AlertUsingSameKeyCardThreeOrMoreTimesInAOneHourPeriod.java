@@ -77,8 +77,7 @@ public class Q1604AlertUsingSameKeyCardThreeOrMoreTimesInAOneHourPeriod {
                 List<Integer> list = map.get(name);
                 Collections.sort(list);
                 for (int i = 0; i + 2 < list.size(); i++) {
-                    int end = list.get(i) + 60;
-                    if (list.get(i + 2) <= end) {
+                    if (list.get(i + 2) <= list.get(i) + 60) {
                         ans.add(name);
                         break;
                     }

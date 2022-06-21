@@ -762,6 +762,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2024MaximizeTheConfusionOfAnExam.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q2024MaximizeTheConfusionOfAnExam.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2024" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2024MaximizeTheConfusionOfAnExam.java" />
+              <option name="titleSlug" value="maximize-the-confusion-of-an-exam" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2033MinimumOperationsToMakeAUniValueGrid.java">
           <value>
             <LeetcodeEditor>

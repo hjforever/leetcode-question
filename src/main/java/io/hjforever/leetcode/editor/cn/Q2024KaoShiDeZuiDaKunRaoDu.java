@@ -80,13 +80,13 @@ public class Q2024KaoShiDeZuiDaKunRaoDu {
                 if (c == ch) {
                     count++;
                 }
-                right++;
                 while (count > k) {
                     if (answerKey.charAt(left++) == ch) {
                         count--;
                     }
                 }
-                res = Math.max(res, (right - left));
+                res = Math.max(res, (right - left + 1));
+                right++;
             }
             return res;
         }
