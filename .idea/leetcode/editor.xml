@@ -1114,6 +1114,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q829ConsecutiveNumbersSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q829ConsecutiveNumbersSum.md" />
+              <option name="frontendQuestionId" value="leetcode.cn829" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q829ConsecutiveNumbersSum.java" />
+              <option name="titleSlug" value="consecutive-numbers-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q846HandOfStraights.java">
           <value>
             <LeetcodeEditor>
