@@ -66,15 +66,16 @@ public class Q2033MinimumOperationsToMakeAUniValueGrid {
             // greedy，取中位数
             int n = grid.length;
             int m = grid[0].length;
-            List<Integer> nums = new ArrayList<>();
+            int[] nums = new int[n * m];
+            int k = 0;
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < m; j++) {
-                    nums.add(grid[i][j]);
+                    nums[k++] = grid[i][j];
                 }
             }
-            Collections.sort(nums);
+            Arrays.sort(nums);
             //取中位数
-            int mid = nums.get(n * m / 2);
+            int mid = nums[n * m / 2];
             int ans = 0;
 
             for (int num : nums) {
