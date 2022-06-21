@@ -1334,6 +1334,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q990SatisfiabilityOfEqualityEquations.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q990SatisfiabilityOfEqualityEquations.md" />
+              <option name="frontendQuestionId" value="leetcode.cn990" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q990SatisfiabilityOfEqualityEquations.java" />
+              <option name="titleSlug" value="satisfiability-of-equality-equations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/QJianZhiOfferII029PaiXuDeXunHuanLianBiao.java">
           <value>
             <LeetcodeEditor>
