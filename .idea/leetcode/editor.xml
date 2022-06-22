@@ -1290,6 +1290,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q870AdvantageShuffle.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q870AdvantageShuffle.md" />
+              <option name="frontendQuestionId" value="leetcode.cn870" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q870AdvantageShuffle.java" />
+              <option name="titleSlug" value="advantage-shuffle" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q875KokoEatingBananas.java">
           <value>
             <LeetcodeEditor>
