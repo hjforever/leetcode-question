@@ -27,47 +27,57 @@
 package io.hjforever.leetcode.editor.cn;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Q870AdvantageShuffle {
     public static void main(String[] args) {
-        Solution solution = new Q870AdvantageShuffle().new Solution();
+
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
 
         //贪心，田忌赛马
-        //这个主要是有相同的数字导致无法快速二分，所以需要通过hash队列模式，因为顺序不影响结果
         public int[] advantageCount(int[] A, int[] B) {
-            int[] sortedA = A.clone();
-            Arrays.sort(sortedA);
-            int[] sortedB = B.clone();
-            Arrays.sort(sortedB);
+            int n = A.length;
+            int[] ans = new int[n];
 
-            Map<Integer, Deque<Integer>> assigned = new HashMap();
-            for (int b : B) assigned.put(b, new LinkedList());
-
-            Deque<Integer> remaining = new LinkedList();
-
-
-            // 找到比B大的最小值
-            //上等马对中等马 或者 中等马对下等马
-            int j = 0;
-            for (int a : sortedA) {
-                if (a > sortedB[j]) {
-                    assigned.get(sortedB[j++]).add(a);
+            Arrays.sort(A);
+            List<Integer> list = new ArrayList<>();
+            for (int i = 0; i < n; i++) {
+                list.add(A[i]);
+            }
+            for (int i = 0; i < n; i++) {
+                int val = B[i];
+                //查找index
+                int idx = binarySearch(val, list);
+                if (idx == -1) {
+                    //下等马对上等马
+                    ans[i] = list.get(0);
+                    list.remove(0);
                 } else {
-                    remaining.add(a);
+                    //上等马对中等马
+                    ans[i] = list.get(idx);
+                    list.remove(idx);
                 }
             }
-
-            int[] ans = new int[B.length];
-            for (int i = 0; i < B.length; ++i) {
-                //下等马对上等马
-                if (assigned.get(B[i]).size() > 0) ans[i] = assigned.get(B[i]).pop();
-                else ans[i] = remaining.pop();
-            }
             return ans;
+        }
+
+        //返回对应的index
+        //每次二分效率有点低，可以将两个数组都排序，通过双指针就比较快
+        int binarySearch(int target, List<Integer> list) {
+            int l = 0;
+            int r = list.size() - 1;
+            while (l < r) {
+                int mid = l + r >> 1;
+                if (list.get(mid) > target) {
+                    r = mid;
+                } else {
+                    l = mid + 1;
+                }
+            }
+            return list.get(l) > target ? l : -1;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
