@@ -108,7 +108,7 @@ public class Q1583CountUnhappyFriends {
                 for (int j = i + 1; j < pairs.length; j++) {
                     int u = pairs[j][0];
                     int v = pairs[j][1];
-
+                    //存在很多无效判断
                     if (unhappy(x, y, u, v)) {
                         set.add(x);
                     }

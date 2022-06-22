@@ -938,6 +938,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2222NumberOfWaysToSelectBuildings.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q2222NumberOfWaysToSelectBuildings.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2222" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2222NumberOfWaysToSelectBuildings.java" />
+              <option name="titleSlug" value="number-of-ways-to-select-buildings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2226MaximumCandiesAllocatedToKChildren.java">
           <value>
             <LeetcodeEditor>
