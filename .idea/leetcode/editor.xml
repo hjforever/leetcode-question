@@ -861,6 +861,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2115FindAllPossibleRecipesFromGivenSupplies.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q2115FindAllPossibleRecipesFromGivenSupplies.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2115" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2115FindAllPossibleRecipesFromGivenSupplies.java" />
+              <option name="titleSlug" value="find-all-possible-recipes-from-given-supplies" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q2170MinimumOperationsToMakeTheArrayAlternating.java">
           <value>
             <LeetcodeEditor>
