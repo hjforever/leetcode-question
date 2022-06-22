@@ -40,9 +40,10 @@
 
 package io.hjforever.leetcode.editor.cn;
 
-import org.apache.commons.io.input.BOMInputStream;
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Q792NumberOfMatchingSubsequences {
     public static void main(String[] args) {
@@ -71,16 +72,16 @@ public class Q792NumberOfMatchingSubsequences {
             //return hash(s, words);
             //2.next head + two pointers
             int ans = 0;
-            ArrayList<Node>[] heads = new ArrayList[26];
+            List<Node>[] heads = new ArrayList[26];
             for (int i = 0; i < 26; ++i)
-                heads[i] = new ArrayList<Node>();
+                heads[i] = new ArrayList<>();
 
             for (String word : words)
                 heads[word.charAt(0) - 'a'].add(new Node(word, 0));
 
             for (char c : s.toCharArray()) {
-                ArrayList<Node> old_bucket = heads[c - 'a'];
-                heads[c - 'a'] = new ArrayList<Node>();
+                List<Node> old_bucket = heads[c - 'a'];
+                heads[c - 'a'] = new ArrayList<>();
 
                 for (Node node : old_bucket) {
                     node.index++;
