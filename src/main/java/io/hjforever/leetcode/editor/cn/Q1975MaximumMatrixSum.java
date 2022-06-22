@@ -66,7 +66,7 @@ public class Q1975MaximumMatrixSum {
                 }
             }
             if ((cnt & 1) == 1) {
-                return sum - 2 * min;
+                return sum - 2L * min;
             }
             return sum;
         }
