@@ -68,34 +68,37 @@ public class Q1958CheckIfMoveIsLegal {
     class Solution {
 
         //bfs
-
         public boolean checkMove(char[][] board, int rMove, int cMove, char color) {
             return bfs(board, rMove, cMove, color);
         }
 
         boolean bfs(char[][] board, int i, int j, char originColor) {
-            int[][] dirct = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}, {1, 1}, {-1, -1}, {1, -1}, {-1, 1}};
-            for (int k = 0; k < dirct.length; k++) {
-                int newi = i + dirct[k][0];
-                int newj = j + dirct[k][1];
-                if (newi < 0 || newj < 0 || newj >= 8 || newi >= 8) continue;
-                if (board[newi][newj] == originColor || board[newi][newj] == '.') continue;
-                boolean hasEnd = false;
-                while (!(newi < 0 || newj < 0 || newj >= 8 || newi >= 8) && board[newi][newj] != '.') {
-                    if (board[newi][newj] == originColor) {
-                        hasEnd = true;
-                        break;
-                    }
-                    newi = newi + dirct[k][0];
-                    newj = newj + dirct[k][1];
-                }
-                if (hasEnd) {
+            int[][] direct = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}, {1, 1}, {-1, -1}, {1, -1}, {-1, 1}};
+            for (int k = 0; k < direct.length; k++) {
+                int[] direction = direct[k];
+                if (check(board, i, j, direction, originColor)) {
                     return true;
                 }
             }
             return false;
         }
 
+        boolean check(char[][] board, int i, int j, int[] direction, char originColor) {
+            int newi = i + direction[0];
+            int newj = j + direction[1];
+            if (newi < 0 || newj < 0 || newj >= 8 || newi >= 8) return false;
+            if (board[newi][newj] == originColor || board[newi][newj] == '.') return false;
+            boolean hasEnd = false;
+            while (!(newi < 0 || newj < 0 || newj >= 8 || newi >= 8) && board[newi][newj] != '.') {
+                if (board[newi][newj] == originColor) {
+                    hasEnd = true;
+                    break;
+                }
+                newi = newi + direction[0];
+                newj = newj + direction[1];
+            }
+            return hasEnd;
+        }
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
