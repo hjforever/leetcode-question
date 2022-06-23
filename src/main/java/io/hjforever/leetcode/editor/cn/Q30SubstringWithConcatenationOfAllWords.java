@@ -82,6 +82,7 @@ public class Q30SubstringWithConcatenationOfAllWords {
                         break;
                     }
                     scnt.put(w, scnt.getOrDefault(w, 0) + 1);
+                    if(wcnt.get(w)<scnt.get(w)) {sub=false ; break;}
                 }
                 if (!sub) continue;
                 sub = check(scnt, wcnt);
