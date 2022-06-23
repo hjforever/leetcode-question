@@ -1213,6 +1213,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q632SmallestRangeCoveringElementsFromKLists.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q632SmallestRangeCoveringElementsFromKLists.md" />
+              <option name="frontendQuestionId" value="leetcode.cn632" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q632SmallestRangeCoveringElementsFromKLists.java" />
+              <option name="titleSlug" value="smallest-range-covering-elements-from-k-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q708InsertIntoASortedCircularLinkedList.java">
           <value>
             <LeetcodeEditor>
@@ -1232,6 +1243,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q715RangeModule.java" />
               <option name="titleSlug" value="range-module" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q718MaximumLengthOfRepeatedSubarray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q718MaximumLengthOfRepeatedSubarray.md" />
+              <option name="frontendQuestionId" value="leetcode.cn718" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q718MaximumLengthOfRepeatedSubarray.java" />
+              <option name="titleSlug" value="maximum-length-of-repeated-subarray" />
             </LeetcodeEditor>
           </value>
         </entry>
