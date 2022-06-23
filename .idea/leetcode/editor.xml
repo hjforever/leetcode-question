@@ -1059,6 +1059,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q395LongestSubstringWithAtLeastKRepeatingCharacters.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q395LongestSubstringWithAtLeastKRepeatingCharacters.md" />
+              <option name="frontendQuestionId" value="leetcode.cn395" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q395LongestSubstringWithAtLeastKRepeatingCharacters.java" />
+              <option name="titleSlug" value="longest-substring-with-at-least-k-repeating-characters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q473MatchsticksToSquare.java">
           <value>
             <LeetcodeEditor>
