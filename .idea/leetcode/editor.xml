@@ -1103,6 +1103,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q480SlidingWindowMedian.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q480SlidingWindowMedian.md" />
+              <option name="frontendQuestionId" value="leetcode.cn480" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q480SlidingWindowMedian.java" />
+              <option name="titleSlug" value="sliding-window-median" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q497RandomPointInNonOverlappingRectangles.java">
           <value>
             <LeetcodeEditor>
