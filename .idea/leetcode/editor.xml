@@ -1598,6 +1598,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q978LongestTurbulentSubarray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q978LongestTurbulentSubarray.md" />
+              <option name="frontendQuestionId" value="leetcode.cn978" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q978LongestTurbulentSubarray.java" />
+              <option name="titleSlug" value="longest-turbulent-subarray" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q986IntervalListIntersections.java">
           <value>
             <LeetcodeEditor>
