@@ -685,6 +685,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1670DesignFrontMiddleBackQueue.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/doc/content/Q1670DesignFrontMiddleBackQueue.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1670" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1670DesignFrontMiddleBackQueue.java" />
+              <option name="titleSlug" value="design-front-middle-back-queue" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/hjforever/leetcode/editor/cn/Q1695MaximumErasureValue.java">
           <value>
             <LeetcodeEditor>
